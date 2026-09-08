@@ -35,3 +35,6 @@ else:
     tool = tools[tool_call["tool"]]
     result = tool(**tool_call["arguments"])
     print(result)
+
+
+
